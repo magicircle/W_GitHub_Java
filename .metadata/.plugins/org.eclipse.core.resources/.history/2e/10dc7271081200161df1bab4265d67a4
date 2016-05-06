@@ -1,0 +1,46 @@
+package org.javatutorials.eclipse.calendar;
+
+class cal_day{
+	
+	
+	public void printout_month(int week_1, int month_c){
+		for(int i=0;i<7;i++){
+			String[] week_c = {"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
+			System.out.printf("%3s ",week_c[i]);
+		}
+		System.out.println();
+		
+		for(int i=0;i<week_1;i++){
+			System.out.printf("    ");
+		}
+		for(int i=1;i<=month_c;i++){
+			System.out.printf("%3d ",i);
+			week_1=week_1+1;
+			if (week_1==7){
+				week_1=0;
+				System.out.println();
+			}
+			
+			
+		}
+		
+	}
+	
+}
+
+
+public class calendar {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		cal_day cal = new cal_day();
+		int week_1,month_i;
+		int[] month_c = {31,28,31,30,31,30,31,31,30,31,30,31};
+		int year_c = 1583;
+		week_1=3;month_i=2;
+		cal.printout_month(week_1,month_c[month_i]);
+		
+		
+	}
+
+}

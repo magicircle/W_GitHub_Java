@@ -1,0 +1,13 @@
+package org.javatutorials.eclipse.variable_01;
+
+public class variable_ex01 {
+
+	public static void main(String[] args) {
+		// 변수연습
+		int a;
+		a=1;
+		System.out.println(a+a+a);
+		
+	}
+
+}

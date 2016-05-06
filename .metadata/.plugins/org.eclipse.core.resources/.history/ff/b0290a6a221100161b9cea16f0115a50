@@ -1,0 +1,10 @@
+package org.javatutorials.eclipse.loopex02;
+
+public class loopex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

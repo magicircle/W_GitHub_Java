@@ -1,0 +1,22 @@
+package org.javatutorials.eclipse.loop_ex_01;
+
+public class loop_ex_01 {
+
+	public static void main(String[] args) {
+		// ¹Ýº¹¹®
+		int a=1;
+		int b;
+		int c;
+		while(a<=9){
+			a++;
+			b=1;
+			while(b<=9){
+				c=a*b;
+				System.out.printf("%d X %d = %d\n",a,b,c);
+				b++;
+			}
+			
+		}
+	}
+
+}

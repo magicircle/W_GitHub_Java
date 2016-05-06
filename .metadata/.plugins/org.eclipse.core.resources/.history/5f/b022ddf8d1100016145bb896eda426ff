@@ -1,0 +1,10 @@
+package org.javatutorials.eclipse.number_string;
+
+public class Numberstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
