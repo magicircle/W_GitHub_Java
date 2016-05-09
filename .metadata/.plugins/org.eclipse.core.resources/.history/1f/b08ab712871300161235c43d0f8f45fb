@@ -1,0 +1,16 @@
+
+public class Exam_02 {
+	
+	public static void main(String[] ar){
+		int x = 255;
+		long y = x;
+		byte z = (byte)x;
+		
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
+		System.out.println("z = " + z);
+		
+		
+	}
+
+}

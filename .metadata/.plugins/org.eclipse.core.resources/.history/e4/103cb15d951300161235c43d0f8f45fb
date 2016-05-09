@@ -1,0 +1,28 @@
+
+public class Exam_03 {
+	public static void main(String[] ar){
+		System.out.flush();
+		
+		System.err.println("에러 출력 스트림...");
+		System.out.println("기본 출력 스트림...");
+		System.out.println();
+		
+		System.out.write(65);
+		System.out.flush();
+		System.out.println();
+		
+		byte[] by = new byte[]{'J', 'A', 'V', 'A'};
+		System.out.write(by, 0, 3); //auto flush
+		System.out.println();
+		
+		int x = 100;
+		char y = 'B';
+		System.out.print(x);
+		System.out.print(y);
+		
+		
+		
+		
+	}
+
+}
