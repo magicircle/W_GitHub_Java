@@ -1,0 +1,22 @@
+import java.io.*;
+
+public class Exam_07_operator2{
+	public static void main(String[] args) throws IOException{
+		int su1 = 0;
+		
+		System.out.print("su1 = ");
+		su1 = System.in.read() - 48;
+		
+		switch(su1){
+		case   0:	System.out.println("당신은 서울 출생입니다");break;
+		case   1:	System.out.println("당신은 경기,인천 출생입니다");break;
+		case   9:	System.out.println("당신은 제주 출생입니다");break;
+		default :	System.out.println("당신은 서울 출생입니다");
+		
+		}
+		
+	}
+		
+}
+
+

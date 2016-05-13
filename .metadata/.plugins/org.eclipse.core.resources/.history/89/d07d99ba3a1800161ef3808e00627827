@@ -1,0 +1,10 @@
+
+public class Exam_08_method {
+
+	public static void main(String[] ar){
+		System.out.println("한글자바");
+		return;
+		
+	}
+
+}

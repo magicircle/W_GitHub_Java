@@ -1,0 +1,19 @@
+import java.io.IOException;
+
+public class Exam_08_method {
+
+	public static void main(String[] ar)throws IOException{
+		int k = 0;
+		char kc = ' ';
+		for ( int i=1 ; i< 255 ; i++)
+		{
+			for ( int j=1 ; j < 255 ; j++)
+			{	k=i*j;
+				System.out.println( k + " - " + (char)k);
+			}
+			kc=(char)System.in.read();
+		}
+		
+	}
+
+}

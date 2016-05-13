@@ -1,0 +1,41 @@
+import java.io.*;
+
+public class Exam_08_method 
+{
+	public static void main(String[] ar)throws IOException
+	{
+		FileInputStream in = new FileInputStream("miro_01.txt");
+		
+		int i,j;
+		int x_Cord=0;
+		int y_Cord=0;
+		int char_Temp;
+		char[][] char_Line = new char[24][80];
+		String line_String;
+		
+		i=0 ; j=0;
+		while ( ( char_Temp=in.read() ) != -1 )
+		{
+			char_Line[j][i]=(char)char_Temp;
+			System.out.print(char_Line[j][i]);
+			i=i+1;
+			if (i>=79)
+			{
+				i=0;
+				j=j+1;
+				System.out.println();
+			}
+						
+		}	 
+		
+		
+		
+		
+		in.close();			
+	
+	}
+
+}
+
+
+

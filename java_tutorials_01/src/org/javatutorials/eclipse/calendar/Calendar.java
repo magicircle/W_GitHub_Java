@@ -69,7 +69,7 @@ public class Calendar {
 		int[] month_c = {31,28,31,30,31,30,31,31,30,31,30,31};
 		int month_s=0;
 		int week_0=6,week_m=0; // week_0, 1583년1월1일은 토요일
-		int year_i=2016;  // 원하는 년도 입력 1583 보다 큰 값
+		final int year_i=2016;  // 원하는 년도 입력 1583 보다 큰 값
 		int month_i=5;    // 원하는 달 입력
 
 		month_c[1] = Cal_day.month_yun(year_i);

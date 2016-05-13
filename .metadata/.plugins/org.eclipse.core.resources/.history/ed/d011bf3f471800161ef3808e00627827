@@ -1,0 +1,24 @@
+import java.io.*;
+
+public class Exam_08_method 
+{
+	public static void main(String[] ar)throws IOException
+	{
+		BufferedReader in = new BufferedReader(new FileReader("miro_01.txt"));
+		
+		int i=0,j=0;
+		int x_Cord=0;
+		int y_Cord=0;
+		String line_String;
+		char str_Split[][];
+		
+		while ((line_String = in.readLine()) != null)
+		{
+			System.out.println(line_String);
+			//그렇게 한 줄 가져와서.. 스플릿으로 조각조각 내 준다. 파싱 기준은 공백인 \t 로 하자
+		}	 
+	
+		in.close();			
+	}
+
+}

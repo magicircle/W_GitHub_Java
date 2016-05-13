@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\WorkSpace\W_GitHub_C"/>
+		<item value="C:\WorkSpace\W_GitHub_Java"/>
+		<item value="C:\WorkSpace\W_GitHub_C\dok"/>
 		<item value="C:\WorkSpace\HelloEclipse"/>
 	</list>
 	<section name="NewWizardAction">
