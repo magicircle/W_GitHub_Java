@@ -1,0 +1,14 @@
+package javapractice0514;
+
+import java.io.*;
+
+public class keyboard003 {
+
+	public static void main(String[] args) throws IOException {
+		InputStreamReader MyReader = new InputStreamReader(System.in);
+		int cTmp = MyReader.read();
+		System.out.println(cTmp);
+		
+	}
+
+}

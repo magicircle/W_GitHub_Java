@@ -1,0 +1,21 @@
+package javapractice0514;
+
+import java.io.*;
+
+public class keyboard004 {
+	public static void main(String[] args) throws IOException {
+		BufferedReader myBuffer = new BufferedReader 
+				( new InputStreamReader(System.in));
+		byte[] b = new byte[10];
+		String sTmp1 = myBuffer.readLine();
+		String sTmp2 = myBuffer.readLine();
+		int sTmp3 = System.in.read( b, 2, 3);
+		System.out.println(sTmp1);
+		System.out.println(sTmp2);
+		System.out.println(sTmp3);
+		
+		
+		
+	}
+
+}

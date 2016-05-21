@@ -1,0 +1,14 @@
+package javapractice0514;
+
+public class arraypractice001 {
+	public static void main(String[] args){
+		char[] acTmp = new char[1024];
+		acTmp[0]=' ';
+		System.out.print(acTmp[0]);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package javapractice0514;
+
+import java.io.*;
+
+public class typingpractice02 {
+
+	public static void main(String[] args) throws IOException {
+		InputStreamReader myStream = new InputStreamReader(System.in);
+		File myFile = new File("typing01.txt");
+
+		BufferedReader mrKeyboard = new BufferedReader(myStream);
+		FileReader mfRead = new FileReader(myFile);
+		BufferedReader mrFile = new BufferedReader(mfRead);
+		
+		String readedString;
+		String typingdString;
+		
+		while(true){
+			readedString = mrFile.readLine();
+			if (readedString==null) break; 
+			System.out.println(readedString);
+		}
+		
+		
+
+
+		mrFile.close();
+	}
+}

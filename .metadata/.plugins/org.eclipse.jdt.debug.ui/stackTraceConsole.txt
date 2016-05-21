@@ -1,1 +1,6 @@
 Paste stack traces into this console and follow hyperlinks to source code.
+
+dsf
+
+
+dir

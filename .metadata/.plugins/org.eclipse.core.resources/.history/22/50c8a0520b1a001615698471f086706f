@@ -1,0 +1,22 @@
+package javapractice0514;
+
+import java.io.*;
+
+public class typingpractice01{
+	public static void main(String[] args) throws IOException{
+		BufferedReader myReader = new BufferedReader
+			(new InputStreamReader(System.in));
+		BufferedWriter myOut = new BufferedWriter
+			(new FileWriter("typing.txt"));
+		
+		String myType = new String();
+		
+		myType = myReader.readLine();
+		while ( true ){
+			if (myType == "12345") break;
+			myOut.write(myType);
+		}
+		
+		myOut.close();
+	}
+}

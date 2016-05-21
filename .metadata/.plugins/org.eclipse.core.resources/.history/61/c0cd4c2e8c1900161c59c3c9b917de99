@@ -1,0 +1,33 @@
+package javapractice0514;
+
+public class arraypractice001 {
+	public static void main(String[] args){
+		char[] acTmp = new char[5];
+		acTmp[0]='H';
+		acTmp[1]='e';
+		acTmp[2]='l';
+		acTmp[3]='l';
+		acTmp[4]='o';
+				
+		for ( int i=0 ; i<acTmp.length ; i++ )
+			System.out.println(acTmp[i]);
+		
+		char[] acTmp2 = new char[12];
+		
+
+		for ( int i=0 ; i<acTmp.length ; i++ )
+			acTmp2[i] = acTmp[i];
+		acTmp2[acTmp.length+0] = ' ';
+		acTmp2[acTmp.length+0] = 'M';
+		acTmp2[acTmp.length+0] = 'R';
+		acTmp2[acTmp.length+0] = '.';
+		acTmp2[acTmp.length+0] = 'K';
+		acTmp2[acTmp.length+0] = 'I';
+		acTmp2[acTmp.length+0] = 'M';
+		
+		for ( int i=0 ; i<acTmp2.length ; i++ )
+			System.out.print(acTmp2[i]);
+			
+		
+	}
+}

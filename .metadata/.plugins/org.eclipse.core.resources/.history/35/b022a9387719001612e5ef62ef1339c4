@@ -1,0 +1,58 @@
+package javapractice0514;
+
+import java.io.*;
+import java.util.Random;
+
+public class Myclass0514_952 {
+	static final int NCOUNT = 65535;		
+	
+	public static void main(String[] args) {
+				
+		int[] anTmp = new int[NCOUNT];
+		int temp = 0;
+		Random myRand = new Random();
+		
+		for ( int i=0 ; i < NCOUNT ; i++ )
+		{
+			temp++;
+			if (temp==12){
+				System.out.println();
+				temp=0;
+			}
+			anTmp[i] = myRand.nextInt(NCOUNT);
+			System.out.printf("%8d", anTmp[i]);
+		}
+		
+		bsort(anTmp);
+		
+		for ( int i=0 ; i < NCOUNT ; i++ )
+		{
+			temp++;
+			if (temp==12){
+				System.out.println();
+				temp=0;
+			}
+		System.out.printf("%8d", anTmp[i]);
+		}
+		
+		
+		
+	}
+		
+	static void bsort(int[] anTmp){
+		int nTmp;
+		for (int i=1 ; i<NCOUNT-1 ; i++){
+			for(int j=0 ; j<NCOUNT-i; j++){
+				if(anTmp[j]>anTmp[j+1]){
+					nTmp=anTmp[j];
+					anTmp[j]=anTmp[j+1];
+					anTmp[j+1]=nTmp;
+				}
+			}
+		}
+	}
+
+
+}
+
+

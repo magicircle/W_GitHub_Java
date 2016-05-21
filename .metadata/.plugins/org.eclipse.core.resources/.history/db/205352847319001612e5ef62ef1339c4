@@ -1,0 +1,26 @@
+package javapractice0514;
+
+import java.io.*;
+import java.util.Random;
+
+
+
+public class Myclass0514_952 {
+	
+	public static void main(String[] args) {
+		
+		char[] acTmp1 = {'a', 'b', 'c'};
+		char acTmp2[] = new char[65535];
+		Random myRand = new Random();
+		final int NCOUNT = 80;
+		
+		for ( int i=0 ; i < NCOUNT ; i++ )
+		{
+			acTmp2[i] = (char)myRand.nextInt(NCOUNT);
+			System.out.printf("%c  ", acTmp2[i]);
+		}
+	
+	}
+}
+
+

@@ -1,0 +1,19 @@
+package javapractice0514;
+
+public class arraypractice001 {
+	public static void main(String[] args){
+		char[] acTmp = new char[1024];
+		acTmp[0]='H';
+		acTmp[0]='e';
+		acTmp[0]='l';
+		acTmp[0]='l';
+		acTmp[0]='o';
+		System.out.print(acTmp[0]);
+		char acTmp2[] = acTmp;
+		
+		System.out.print(acTmp2);
+		
+		
+		
+	}
+}

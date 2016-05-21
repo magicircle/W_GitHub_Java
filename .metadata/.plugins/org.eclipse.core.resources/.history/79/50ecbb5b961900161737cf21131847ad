@@ -1,0 +1,52 @@
+package javapractice0514;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class arraypractice001 {
+	public static void main(String[] args){
+		char[] acTmp = new char[5];
+		acTmp[0]='H';
+		acTmp[1]='e';
+		acTmp[2]='l';
+		acTmp[3]='l';
+		acTmp[4]='o';
+				
+		for ( int i=0 ; i<acTmp.length ; i++ )
+			System.out.print(acTmp[i]);
+		
+		char[] acTmp2 = new char[12];
+		
+
+		for ( int i=0 ; i<acTmp.length ; i++ )
+			acTmp2[i] = acTmp[i];
+		
+		acTmp2[acTmp.length+0] = ' ';
+		acTmp2[acTmp.length+1] = 'M';
+		acTmp2[acTmp.length+2] = 'R';
+		acTmp2[acTmp.length+3] = '.';
+		acTmp2[acTmp.length+4] = 'K';
+		acTmp2[acTmp.length+5] = 'I';
+		acTmp2[acTmp.length+6] = 'M';
+		
+		System.out.println();
+		for ( int i=0 ; i<acTmp2.length ; i++ )
+			System.out.print(acTmp2[i]);
+		
+		List <String> lstsTmp = new ArrayList<String>();
+		
+		lstsTmp.add("æ»≥Á«œººø‰ 1");
+		lstsTmp.add("æ»≥Á«œººø‰ 2");
+		lstsTmp.add("æ»≥Á«œººø‰ 3");
+		lstsTmp.add("æ»≥Á«œººø‰ 4");
+		lstsTmp.add("æ»≥Á«œººø‰ 5");
+		
+		for (String sTmp : lstsTmp)
+			System.out.println(sTmp);
+		
+			
+
+			
+		
+	}
+}

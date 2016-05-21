@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.Arrays;
+
+public class Exam_08_method 
+{
+	public static void main(String[] ar)throws IOException
+	{
+		FileInputStream in = new FileInputStream("miro_01.txt");
+
+		
+		int i,j;
+		Arrays.sort(null);
+	
+	}
+
+}
+
+
+
